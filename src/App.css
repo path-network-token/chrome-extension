@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000000;
+  font-family: 'Montserrat';
+  font-size: 12px;
+}
+
+.app-container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.more-pens {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 100;
+}
+
+.more-pens-black {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+  background: #212121;
+  padding: 4px 8px;
+  color: #f7f7f7;
+}
+
+a:hover {
+  background: #edf3f8;
+  color: #212121;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.title h1 {
+  position: relative;
+  color: #eeeeee;
+  font-weight: 600;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 0 0 30px #000155;
+}
+
+.title h1 span {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  color: #bbb;
+}
+
+.title h3 {
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  color: #eeeeee;
+  letter-spacing: 2px;
+  text-shadow: 0 0 30px #000155;
+}
+
+.container {
+  position: fixed;
+  z-index: 1;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.info-box {
+  display: inline-block;
+  background: #212121;
+  padding: 4px 8px;
+  color: #f7f7f7;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  max-width: 400px;
+  width: 100%;
+}
