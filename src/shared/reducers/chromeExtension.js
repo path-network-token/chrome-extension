@@ -7,7 +7,6 @@ export default function chromeExtension(
   switch (action.type) {
     case UPDATE_STATE:
       const newState = Object.assign({}, state, action.state);
-      //conditions to update localStorage only inside backround page
       if (
         location.protocol == 'chrome-extension:' &&
         chrome.extension.getBackgroundPage() === window
